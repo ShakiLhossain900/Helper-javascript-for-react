@@ -42,4 +42,18 @@
 // console.log(txt);
 
 
-//
+// i want to add total array value also i want to add total index number;
+
+let totalValue=0;
+let totalIndex= 0;
+
+const numbers = [91, 20, 3, 40, 45]
+
+numbers.forEach(myFunction)
+
+function myFunction(item, index) {
+    totalValue += item;
+    totalIndex = index;
+}
+console.log("totalValue: " + totalValue);
+console.log("totalIndex: " + totalIndex);
