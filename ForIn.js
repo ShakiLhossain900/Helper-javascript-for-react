@@ -19,15 +19,27 @@
 // }
 // console.log(emp);
 
-
-
-
 // const numbers = [45, 4, 9, 16, 25];
 
 // let txt = "";
 // for (let x in numbers) {
-//   txt += numbers[x] + "<br/>"; 
+//   txt += numbers[x] + "<br/>";
+// }
+// console.log(txt)
+
+
+
+
+///FOREACH FUNCTION
+// let txt = "";
+// const fruits = ["apple", "mango", "orange", "cherry"];
+
+// fruits.forEach(shakil);
+
+// function shakil(item, index) {
+//   txt = txt + index + ":" + " " + item;
 // }
 // console.log(txt);
 
 
+//
